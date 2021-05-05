@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"">
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <div class="form">
+      
+    <ul class="top-area">
+      <li class="tab active"><a href="#signup" id="signup">Sign Up</a></li>
+      <!-- <li class="tab"><a href="#login" id="login">Log In</a></li> -->
+    </ul>
+    
+    <div class="tab-content">
+      <div id="signup">   
+        <h1>Sign Up for Free</h1>
+        
+        <form >
+        
+        <div class="top-row">
+          <div class="label-field">
+            <label>
+              <span class="req" id="compl">*</span>
+            </label>
+            <input type="text" required autocomplete="off" placeholder="First Name"  id="fname" />
+          </div>
+      
+          <div class="label-field">
+            <label><span class="req" id="compl1">*</span>
+            </label>
+            <input type="text"required autocomplete="off" placeholder="Last Name"  id="lname"/>
+          </div>
+        </div>
+
+        <div class="label-field">
+          <label>
+           <span class="req" id="compl2">*</span>
+          </label>
+          <input type="email"required autocomplete="off" placeholder="Email Address" id="email"/>
+        </div>
+        
+        <div class="label-field">
+          <label><span class="req" id="compl3">*</span>
+          </label>
+          <input type="password"required autocomplete="off" placeholder="Set A Password" id="password"/>
+        </div>
+        
+        <button type="submit" class="button button-block" id="submit"/>Get Started</button>
+        
+        </form>
+
+      </div>
+      
+      <div id="login">   
+        <h1>Welcome Back!</h1>
+        
+        <form >
+        
+          <div class="label-field">
+          <label>
+            Email Address<span class="req">*</span>
+          </label>
+          <input type="email"required autocomplete="off"/>
+        </div>
+        
+        <div class="label-field">
+          <label>
+            Password<span class="req">*</span>
+          </label>
+          <input type="password"required autocomplete="off"/>
+        </div>
+        
+        <p class="forgot"><a href="#">Forgot Password?</a></p>
+        
+        <button class="button button-block">Log In</button>
+        
+        </form>
+       
+      </div>
+      
+    </div>  
+</div>
+
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script  src="function.js"></script>
+     
+</body>
+</html>
